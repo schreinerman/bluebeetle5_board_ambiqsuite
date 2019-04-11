@@ -1,0 +1,3 @@
+--create .\bin\libam_bsp.lib
+.\bin\am_bsp.o
+.\bin\am_bsp_pins.o

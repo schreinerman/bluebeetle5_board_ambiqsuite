@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1127450755</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\bin\wsf_queue.lst</file>
+            <file>$PROJ_DIR$\bin\wstr.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_ecc_hci.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\profiles\ancc\ancc_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_os.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\hci\hci_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_vs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_cmd.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bda.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_buf.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\terminal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\apollo3\hci_drv_apollo3.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_efs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\crc32.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\print.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_assert.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_math.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_trace.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_evt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_tr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_msg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\wstr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_queue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_core_ps.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\calc128.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_cmac.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\rscp\rscps_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bstream.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\bas\bas_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\gatt\gatt_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\cfg\cfg_stack.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\hidapp\hidapp_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\IAR\AMapollo2\port.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\IAR\AMapollo2\portasm.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_slave.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gls.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_terminal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hts.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_ipss.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_plxs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\apps\ancs\ancs_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hid.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_ui.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gyro.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hrps\hrps_main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_master_leg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_hw.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cscs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_db.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_disc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hid\hid_main.c</file>
+            <file>$PROJ_DIR$\..\src\radio_task.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_server.c</file>
+            <file>$PROJ_DIR$\..\src\rtos.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_bps.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_batt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_dis.c</file>
+            <file>$PROJ_DIR$\..\src\ble_freertos_ancs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_master.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cps.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hrs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_slave_leg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_temp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_scpss.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_id.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_debug.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\MemMang\heap_2.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\queue.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\list.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\event_groups.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_uricfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_rscs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wss.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\tasks.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wdxs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_px.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_faultisr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\timers.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_button.c</file>
+            <file>$PROJ_DIR$\startup_iar.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.c</file>
+            <file>$PROJ_DIR$\bin\ancc_main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\bin\ancs_main.o</file>
+            <file>$PROJ_DIR$\bin\app_db.o</file>
+            <file>$PROJ_DIR$\bin\app_disc.o</file>
+            <file>$PROJ_DIR$\bin\am_devices_button.o</file>
+            <file>$PROJ_DIR$\bin\am_util_id.o</file>
+            <file>$PROJ_DIR$\bin\app_main.o</file>
+            <file>$PROJ_DIR$\bin\app_master.o</file>
+            <file>$PROJ_DIR$\bin\am_util_debug.o</file>
+            <file>$PROJ_DIR$\bin\app_master_leg.o</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.o</file>
+            <file>$PROJ_DIR$\bin\app_server.o</file>
+            <file>$PROJ_DIR$\bin\app_hw.o</file>
+            <file>$PROJ_DIR$\bin\app_slave.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.o</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\am_mcu_apollo.h</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.o</file>
+            <file>$PROJ_DIR$\bin\heap_2.o</file>
+            <file>$PROJ_DIR$\bin\cfg_stack.o</file>
+            <file>$PROJ_DIR$\bin\sec_aes.o</file>
+            <file>$PROJ_DIR$\bin\hci_cmd.o</file>
+            <file>$PROJ_DIR$\bin\gatt_main.o</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.o</file>
+            <file>$PROJ_DIR$\bin\hci_vs.o</file>
+            <file>$PROJ_DIR$\bin\hci_core_ps.o</file>
+            <file>$PROJ_DIR$\bin\bas_main.o</file>
+            <file>$PROJ_DIR$\bin\hci_drv_apollo3.o</file>
+            <file>$PROJ_DIR$\bin\hidapp_main.o</file>
+            <file>$PROJ_DIR$\bin\port.o</file>
+            <file>$PROJ_DIR$\bin\queue.o</file>
+            <file>$PROJ_DIR$\bin\hci_core.o</file>
+            <file>$PROJ_DIR$\bin\app_slave_leg.o</file>
+            <file>$PROJ_DIR$\bin\app_terminal.o</file>
+            <file>$PROJ_DIR$\bin\calc128.o</file>
+            <file>$PROJ_DIR$\bin\radio_task.o</file>
+            <file>$PROJ_DIR$\bin\app_ui.o</file>
+            <file>$PROJ_DIR$\bin\rtos.o</file>
+            <file>$PROJ_DIR$\bin\hid_main.o</file>
+            <file>$PROJ_DIR$\bin\list.o</file>
+            <file>$PROJ_DIR$\bin\bstream.o</file>
+            <file>$PROJ_DIR$\bin\hci_main.o</file>
+            <file>$PROJ_DIR$\bin\rscps_main.o</file>
+            <file>$PROJ_DIR$\bin\hci_evt.o</file>
+            <file>$PROJ_DIR$\bin\bda.o</file>
+            <file>$PROJ_DIR$\bin\crc32.o</file>
+            <file>$PROJ_DIR$\bin\hci_tr.o</file>
+            <file>$PROJ_DIR$\bin\hrps_main.o</file>
+            <file>$PROJ_DIR$\bin\print.o</file>
+            <file>$PROJ_DIR$\bin\event_groups.o</file>
+            <file>$PROJ_DIR$\bin\tasks.o</file>
+            <file>$PROJ_DIR$\bin\startup_iar.o</file>
+            <file>$PROJ_DIR$\bin\svc_ipss.o</file>
+            <file>$PROJ_DIR$\bin\svc_core.o</file>
+            <file>$PROJ_DIR$\bin\svc_gls.o</file>
+            <file>$PROJ_DIR$\bin\svc_hid.o</file>
+            <file>$PROJ_DIR$\bin\svc_hrs.o</file>
+            <file>$PROJ_DIR$\bin\svc_dis.o</file>
+            <file>$PROJ_DIR$\bin\svc_scpss.o</file>
+            <file>$PROJ_DIR$\bin\svc_batt.o</file>
+            <file>$PROJ_DIR$\bin\sec_ecc_hci.o</file>
+            <file>$PROJ_DIR$\bin\svc_bps.o</file>
+            <file>$PROJ_DIR$\bin\svc_rscs.o</file>
+            <file>$PROJ_DIR$\bin\sec_cmac.o</file>
+            <file>$PROJ_DIR$\bin\svc_cscs.o</file>
+            <file>$PROJ_DIR$\bin\svc_plxs.o</file>
+            <file>$PROJ_DIR$\bin\svc_uricfg.o</file>
+            <file>$PROJ_DIR$\bin\timers.o</file>
+            <file>$PROJ_DIR$\bin\wsf_assert.o</file>
+            <file>$PROJ_DIR$\bin\svc_wp.o</file>
+            <file>$PROJ_DIR$\bin\sec_main.o</file>
+            <file>$PROJ_DIR$\bin\svc_hts.o</file>
+            <file>$PROJ_DIR$\bin\svc_cps.o</file>
+            <file>$PROJ_DIR$\bin\svc_wdxs.o</file>
+            <file>$PROJ_DIR$\bin\svc_wss.o</file>
+            <file>$PROJ_DIR$\bin\svc_px.o</file>
+            <file>$PROJ_DIR$\bin\wsf_buf.o</file>
+            <file>$PROJ_DIR$\bin\wsf_efs.o</file>
+            <file>$PROJ_DIR$\bin\terminal.o</file>
+            <file>$PROJ_DIR$\bin\svc_gyro.o</file>
+            <file>$PROJ_DIR$\bin\svc_temp.o</file>
+            <file>$PROJ_DIR$\bin\crc32.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_drv_apollo3.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_core_ps.pbi</file>
+            <file>$PROJ_DIR$\bin\startup_iar.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_cmd.pbi</file>
+            <file>$PROJ_DIR$\bin\hid_main.pbi</file>
+            <file>$PROJ_DIR$\bin\heap_2.pbi</file>
+            <file>$PROJ_DIR$\bin\sec_aes.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_main.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_vs.pbi</file>
+            <file>$PROJ_DIR$\bin\cfg_stack.pbi</file>
+            <file>$PROJ_DIR$\bin\radio_task.pbi</file>
+            <file>$PROJ_DIR$\bin\rscps_main.pbi</file>
+            <file>$PROJ_DIR$\bin\hidapp_main.pbi</file>
+            <file>$PROJ_DIR$\bin\sec_main.pbi</file>
+            <file>$PROJ_DIR$\bin\port.pbi</file>
+            <file>$PROJ_DIR$\bin\sec_ecc_hci.pbi</file>
+            <file>$PROJ_DIR$\bin\sec_cmac.pbi</file>
+            <file>$PROJ_DIR$\bin\queue.pbi</file>
+            <file>$PROJ_DIR$\bin\hrps_main.pbi</file>
+            <file>$PROJ_DIR$\bin\list.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_batt.pbi</file>
+            <file>$PROJ_DIR$\bin\calc128.pbi</file>
+            <file>$PROJ_DIR$\bin\rtos.pbi</file>
+            <file>$PROJ_DIR$\bin\gatt_main.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_core.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_bps.pbi</file>
+            <file>$PROJ_DIR$\bin\event_groups.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_evt.pbi</file>
+            <file>$PROJ_DIR$\bin\bstream.pbi</file>
+            <file>$PROJ_DIR$\bin\hci_tr.pbi</file>
+            <file>$PROJ_DIR$\bin\print.pbi</file>
+            <file>$PROJ_DIR$\bin\app_main.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_timer.o</file>
+            <file>$PROJ_DIR$\bin\app_master.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_debug.pbi</file>
+            <file>$PROJ_DIR$\bin\app_server.pbi</file>
+            <file>$PROJ_DIR$\bin\am_devices_button.pbi</file>
+            <file>$PROJ_DIR$\bin\portasm.o</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_trace.o</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.pbi</file>
+            <file>$PROJ_DIR$\bin\app_disc.pbi</file>
+            <file>$PROJ_DIR$\bin\ancc_main.pbi</file>
+            <file>$PROJ_DIR$\bin\app_hw.pbi</file>
+            <file>$PROJ_DIR$\bin\app_slave.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_msg.o</file>
+            <file>$PROJ_DIR$\bin\app_slave_leg.pbi</file>
+            <file>$PROJ_DIR$\bin\app_terminal.pbi</file>
+            <file>$PROJ_DIR$\bin\app_ui.pbi</file>
+            <file>$PROJ_DIR$\bin\bas_main.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_math.o</file>
+            <file>$PROJ_DIR$\bin\app_db.pbi</file>
+            <file>$PROJ_DIR$\bin\bda.pbi</file>
+            <file>$PROJ_DIR$\bin\ancs_main.pbi</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.pbi</file>
+            <file>$PROJ_DIR$\bin\app_master_leg.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_os.o</file>
+            <file>$PROJ_DIR$\bin\wsf_queue.o</file>
+            <file>$PROJ_DIR$\bin\wstr.o</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_id.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_base_addresses.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_burst.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_security.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_reset.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_wdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_jedec.h</file>
+            <file>$PROJ_DIR$\bin\wstr.pbi</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_sysctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_global.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_bleif.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_security.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_itm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_pdm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ctimer.h</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.out</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.bin</file>
+            <file>$PROJ_DIR$\bin\svc_wp.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_ipss.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_plxs.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_cscs.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_wdxs.pbi</file>
+            <file>$PROJ_DIR$\bin\tasks.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_hid.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_wss.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_buf.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_efs.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_math.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_assert.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_os.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_temp.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_scpss.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_queue.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_timer.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_trace.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_cps.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_rscs.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_hrs.pbi</file>
+            <file>$PROJ_DIR$\bin\terminal.pbi</file>
+            <file>$PROJ_DIR$\bin\timers.pbi</file>
+            <file>$PROJ_DIR$\bin\wsf_msg.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_px.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_uricfg.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_hts.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_gls.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_dis.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_gyro.pbi</file>
+            <file>$PROJ_DIR$\bin\svc_core.pbi</file>
+            <file>$PROJ_DIR$\bin\portasm.lst</file>
+            <file>$PROJ_DIR$\..\src\FreeRTOSConfig.h</file>
+            <file>$PROJ_DIR$\bin\wsf_buf.lst</file>
+            <file>$PROJ_DIR$\bin\wsf_math.lst</file>
+            <file>$PROJ_DIR$\bin\svc_dis.lst</file>
+            <file>$PROJ_DIR$\bin\svc_hrs.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_px.h</file>
+            <file>$PROJ_DIR$\bin\wsf_os.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_main.h</file>
+            <file>$PROJ_DIR$\bin\svc_px.lst</file>
+            <file>$PROJ_DIR$\bin\svc_wp.lst</file>
+            <file>$PROJ_DIR$\bin\svc_bps.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gyro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\uribeacon\uricfg_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\StackMacros.h</file>
+            <file>$PROJ_DIR$\bin\svc_gyro.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cps.h</file>
+            <file>$PROJ_DIR$\bin\svc_ipss.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\bin\svc_scpss.lst</file>
+            <file>$PROJ_DIR$\bin\svc_uricfg.lst</file>
+            <file>$PROJ_DIR$\bin\sec_aes.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_uricfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\uecc\micro-ecc\uECC.h</file>
+            <file>$PROJ_DIR$\bin\sec_ecc_hci.lst</file>
+            <file>$PROJ_DIR$\bin\svc_cps.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_bps.h</file>
+            <file>$PROJ_DIR$\bin\tasks.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_ipss.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_scpss.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_math.h</file>
+            <file>$PROJ_DIR$\bin\app_db.lst</file>
+            <file>$PROJ_DIR$\bin\ancc_main.lst</file>
+            <file>$PROJ_DIR$\bin\app_main.lst</file>
+            <file>$PROJ_DIR$\bin\app_master_leg.lst</file>
+            <file>$PROJ_DIR$\bin\bda.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\att_defs.h</file>
+            <file>$PROJ_DIR$\..\src\ble_freertos_ancs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\smp_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\att_uuid.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\include\hci_defs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_ble.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\calc128.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\cfg\cfg_stack.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\dm_api.h</file>
+            <file>$PROJ_DIR$\bin\app_slave.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\profiles\ancc\ancc_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\am_bsp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\include\app_db.h</file>
+            <file>$PROJ_DIR$\bin\app_ui.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\hci_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\include\sec_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\am_bsp_pins.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\FreeRTOS.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_time.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\projdefs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\att_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\portable.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_regdump.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\bin\calc128.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\l2c_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\terminal.h</file>
+            <file>$PROJ_DIR$\bin\hci_cmd.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\bin\cfg_stack.lst</file>
+            <file>$PROJ_DIR$\bin\heap_2.lst</file>
+            <file>$PROJ_DIR$\bin\hci_evt.lst</file>
+            <file>$PROJ_DIR$\bin\ancs_main.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_buf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\print.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\l2c_defs.h</file>
+            <file>$PROJ_DIR$\bin\hci_tr.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_batt.h</file>
+            <file>$PROJ_DIR$\bin\hidapp_main.lst</file>
+            <file>$PROJ_DIR$\bin\app_hw.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_main.h</file>
+            <file>$PROJ_DIR$\bin\app_master.lst</file>
+            <file>$PROJ_DIR$\bin\bas_main.lst</file>
+            <file>$PROJ_DIR$\bin\bstream.lst</file>
+            <file>$PROJ_DIR$\bin\list.lst</file>
+            <file>$PROJ_DIR$\bin\app_server.lst</file>
+            <file>$PROJ_DIR$\bin\app_slave_leg.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_drv_apollo.h</file>
+            <file>$PROJ_DIR$\bin\app_terminal.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\bas\bas_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\include\ll_defs.h</file>
+            <file>$PROJ_DIR$\bin\event_groups.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\hidapp\hidapp_api.h</file>
+            <file>$PROJ_DIR$\bin\app_disc.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_status.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ble_patch.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_cachectrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_cmdq.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pwrctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_systick.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_vcomp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pdm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_interrupt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_stimer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_debug.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_mcuctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ios.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\AmbiqMicro\Include\system_apollo3.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_debug.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_ctimer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_ioslave.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_macros.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_pwrctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_sysctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_systick.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_secure_ota.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_rstgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_wdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_clkgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_tpiu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ble.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_mcuctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_iom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_clkgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_mspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_iom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_mspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_apbdma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pwrctrl_internal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_tpiu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\AmbiqMicro\Include\apollo3.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_nvic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_itm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_cachectrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\task.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\semphr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\timers.h</file>
+            <file>$PROJ_DIR$\..\src\radio_task.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\include\hci_core.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_core_ps.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\include\hci_cmd.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\hci\hci_main.h</file>
+            <file>$PROJ_DIR$\bin\crc32.lst</file>
+            <file>$PROJ_DIR$\bin\hci_core.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\include\hci_tr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\include\hci_evt.h</file>
+            <file>$PROJ_DIR$\bin\gatt_main.lst</file>
+            <file>$PROJ_DIR$\bin\hci_core_ps.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\include\hci_drv.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_tr_apollo.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\IAR\AMapollo2\portmacro.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\apollo3\hci_drv_apollo3.h</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.lst</file>
+            <file>$PROJ_DIR$\bin\hci_drv_apollo3.lst</file>
+            <file>$PROJ_DIR$\bin\hci_main.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\deprecated_definitions.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_cs.h</file>
+            <file>$PROJ_DIR$\..\src\rtos.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\crc32.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\mpu_wrappers.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\list.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\include\event_groups.h</file>
+            <file>$PROJ_DIR$\bin\svc_hts.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hts.h</file>
+            <file>$PROJ_DIR$\bin\svc_wss.lst</file>
+            <file>$PROJ_DIR$\bin\svc_temp.lst</file>
+            <file>$PROJ_DIR$\bin\wsf_trace.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wss.h</file>
+            <file>$PROJ_DIR$\bin\wsf_timer.lst</file>
+            <file>$PROJ_DIR$\bin\svc_plxs.lst</file>
+            <file>$PROJ_DIR$\bin\timers.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_plxs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_efs.h</file>
+            <file>$PROJ_DIR$\bin\wsf_assert.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\bin\terminal.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wdxs.h</file>
+            <file>$PROJ_DIR$\bin\svc_wdxs.lst</file>
+            <file>$PROJ_DIR$\bin\svc_hid.lst</file>
+            <file>$PROJ_DIR$\bin\svc_gls.lst</file>
+            <file>$PROJ_DIR$\bin\svc_rscs.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_temp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gls.h</file>
+            <file>$PROJ_DIR$\bin\wsf_efs.lst</file>
+            <file>$PROJ_DIR$\bin\wsf_msg.lst</file>
+            <file>$PROJ_DIR$\..\src\hci_apollo_config.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\hci_handler.h</file>
+            <file>$PROJ_DIR$\bin\radio_task.lst</file>
+            <file>$PROJ_DIR$\bin\hci_vs.lst</file>
+            <file>$PROJ_DIR$\bin\hrps_main.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hrps\hrps_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\dm_handler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\l2c_handler.h</file>
+            <file>$PROJ_DIR$\bin\port.lst</file>
+            <file>$PROJ_DIR$\bin\hid_main.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\att_handler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\smp_handler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hrs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hid.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hid\hid_api.h</file>
+            <file>$PROJ_DIR$\bin\am_util_id.lst</file>
+            <file>$PROJ_DIR$\bin\am_devices_button.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_id.h</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_msg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\include\smp_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\include\app_ui.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\include\app_hw.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_ch.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_dis.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\gatt\gatt_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\include\app_cfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_core.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_trace.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\apps\ancs\ancs_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_assert.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_os_int.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\include\app_api.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_types.h</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.lst</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.lst</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bstream.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bda.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\include\wsf_os.h</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.lst</file>
+            <file>$PROJ_DIR$\bin\am_util_debug.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\bin\sec_main.lst</file>
+            <file>$PROJ_DIR$\bin\startup_iar.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cfg.h</file>
+            <file>$PROJ_DIR$\bin\svc_batt.lst</file>
+            <file>$PROJ_DIR$\bin\svc_core.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cscs.h</file>
+            <file>$PROJ_DIR$\bin\svc_cscs.lst</file>
+            <file>$PROJ_DIR$\bin\queue.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\rscp\rscp_api.h</file>
+            <file>$PROJ_DIR$\bin\sec_cmac.lst</file>
+            <file>$PROJ_DIR$\bin\print.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_rscs.h</file>
+            <file>$PROJ_DIR$\bin\rtos.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\wstr.h</file>
+            <file>$PROJ_DIR$\bin\rscps_main.lst</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\iar\bin\libam_bsp.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\ble_freertos_ancs.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\iar\bin\libam_hal.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\projects\generic\stacklib\iar\bin\stacklib.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\third_party\uecc\iar\bin\lib_uecc.a</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.map</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\bin\ble_freertos_ancs.log</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 262 568 570</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 317 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 533 520 541 532 529 351 303 347 337 540 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 535 339 529 242 533 303 446 541 532 347 520 351 244 407 545 91 237 245 337 540 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_ecc_hci.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320 152</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 313 314 538 545 535 245 533 520 541 532 529 351 303 347 337 540 369 339 559 319 108 246 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 408 392 236 429 411 303 244 242 535 445 421 410 398 533 559 419 430 420 402 395 405 397 399 538 529 347 108 407 446 541 532 246 440 436 416 442 441 444 427 393 394 396 253 413 403 404 406 412 434 313 520 351 369 339 319 364 91 237 314 545 337 540 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 400 390 409 359</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\profiles\ancc\ancc_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 329 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 539 540 534 541 532 533 341 347 337 340 335 351 356 348 333 336 345 343 349 246 415 391 518 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 358 544 350 354 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 442 541 413 345 246 393 412 236 333 436 444 396 404 253 534 242 540 340 336 358 440 416 441 427 394 403 406 245 531 349 341 533 351 337 535 348 356 391 350 419 445 430 429 420 421 402 392 395 410 405 411 397 398 399 244 434 108 539 343 407 545 91 237 532 347 335 415 518 544 354 338 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 408 538 400 390 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_os.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 302 230</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 276</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 449 409 242 446 91 237 470 538 244 407 545 535 245 541 532 533 531 529 348 369 520 471 353 247 296 355 357 469 464 474 477 450 447 475</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 533 541 247 538 529 520 477 470 357 244 464 449 535 531 348 369 471 353 409 532 296 407 474 475 446 91 237 545 245 355 469 450 447</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\hci\hci_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 468 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 520 533 541 532 347 337 540 455</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 541 533 347 446 535 520 455 245 244 91 237 532 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_vs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 504 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 529 540 539 452 453 347 337 340 455 454 501 344 246 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 352 401 417</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 532 429 411 245 392 390 246 455 446 540 541 417 445 421 410 398 407 393 242 533 347 419 430 420 402 395 405 397 399 409 520 452 501 337 344 352 440 436 416 442 441 444 427 394 396 253 413 403 404 406 412 244 414 400 535 529 539 454 545 91 237 453 340 108 401 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 236 434 408 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_cmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 363 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 533 348 541 532 520 529 539 540 454 458 347 337 455 246 383 341 340 335 351 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 260 533 540 434 258 446 238 239 244 242 458 256 241 259 240 520 383 335 247 254 249 255 252 261 257 243 248 245 539 455 108 337 347 105 443 431 418 432 424 422 425 428 426 438 433 435 437 423 439 236 408 535 348 529 454 246 341 407 545 91 237 541 532 340 351 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 253 405 413 411 403 397 404 398 406 399 412 414 400 390 409 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bda.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 332 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 540</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 242 446 535 244 407 545 91 237 538 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_buf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 297 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 272</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 369 531 327 529 471 541 532 533</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 529 242 446 531 535 541 369 327 471 245 244 91 237 533 532</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\terminal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 491 170</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 285</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 538 545 362 535 245 541 532 533 370 531 529 539 540</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 535 539 242 533 370 91 105 245 531 364 538 362 529 244 407 237 541 540 359 446 545 532</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 546 162</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 533 520 541 532 529 531 351 303 347 337 540 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 407 237 245 347 337 529 244 533 351 545 91 535 520 531 303 339 242 446 541 532 540 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\apollo3\hci_drv_apollo3.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 467 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 535 348 541 532 533 539 540 520 471 462 383 463 452 453 347 337 340 341 335 351 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 349 415 391 518 358 544 350 354 338 465 538 545</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 406 245 533 427 393 335 416 253 407 383 440 441 394 403 539 108 337 246 436 442 444 396 413 404 412 244 434 242 535 471 452 465 446 347 540 419 445 430 429 420 421 402 392 395 410 405 411 397 398 399 236 408 358 348 520 462 463 341 349 538 91 237 541 532 453 340 351 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 400 390 409 391 350 545 415 518 544 354 338</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_efs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 499 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 488 531 529 471 541 532 533 539 540</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 545 529 244 91 488 539 407 237 245 535 531 471 242 446 532 540 538 541 533</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\crc32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 456 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 473</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 245 244 446 535 91 237 473</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\print.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 556 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 370 535 245</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 407 237 244 545 535 370 242 446 91 245 538 105</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_assert.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 489 160</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 531 541 532 533</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 245 244 446 535 91 237 531 541 532 533</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_math.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 298 224</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 274</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 327 535 245 244 242 446 91 237 538 407 545</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 244 91 407 538 535 242 237 545 327 446</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\ambiq\wsf_trace.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 482 213</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 281</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 529 531 471 541 532 533 538 407 545 490 246 415 544</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 237 533 538 244 531 490 91 529 471 105 245 446 541 407 535 246 532 545 415 544</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_evt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 367 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 369 529 539 540 347 337 541 532 533 455 459 454 452 453 340</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 454 539 407 237 245 369 455 244 541 535 529 347 459 452 545 91 532 453 340 538 242 446 540 337 533</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_tr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 372 138</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 520 533 541 532 529 531 539 540 347 337 452 453 340 462 108 246 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258 260 242 393 238 239 244 108 237 532 540 256 241 259 240 409 539 533 347 247 254 249 255 252 261 257 243 248 390 246 529 452 91 337 105 443 431 418 432 424 422 425 428 426 438 433 435 437 423 439 407 414 245 400 520 531 462 446 541 535 453 340 440 419 436 445 416 430 442 429 441 420 444 421 427 402 392 394 395 396 410 253 405 413 411 403 397 404 398 406 399 412 236 434 408</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_msg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 500 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 287</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 520 533 541 532 531 369 529</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 533 245 532 531 244 541 520 369 529 242 535 91 237</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\wstr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1 232</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 250</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 559</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 407 237 559 244 545 91 535 446 538 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 231</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 279</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 533 531 471 541 532</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 531 244 237 533 471 242 91 541 535 446 532</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_core_ps.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 461 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 529 540 539 452 453 347 337 340 458 454 459 455</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 453 532 337 454 446 540 242 533 520 452 347 340 535 529 539 458 459 455 244 407 545 91 237 245 541 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\calc128.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 360 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244 91 545 339 407 237 535 242 446 538 245</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\sec\common\sec_cmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 555 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 533 520 541 532 529 351 303 347 337 540 369 339 559</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 347 529 446 541 532 535 533 303 559 337 520 351 369 339 244 407 545 91 237 245 540 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\hci\ambiq\hci_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 457 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 529 531 540 539 452 453 347 337 340 458 454 455 371</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 458 340 531 371 520 539 347 446 533 453 337 535 529 540 452 454 455 244 407 545 91 237 245 541 538 532</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\rscp\rscps_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 560 134</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 529 539 540 341 347 337 541 532 533 340 335 351 557 356 348 333 336 524 554</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 535 341 554 242 533 539 446 335 531 557 347 541 529 524 244 407 545 91 237 245 540 340 351 337 356 333 538 532 348 336</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\util\bstream.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 379 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 539 540</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 245 244 237 540 539 242 446 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\bas\bas_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 378 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 529 539 540 356 348 541 532 533 333 336 341 347 337 340 335 351 524 373 534 345 523 385</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 534 407 237 245 535 539 244 341 541 531 524 385 545 91 333 335 529 356 373 523 242 446 348 336 340 532 347 345 538 533 351 337</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\gatt\gatt_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 460 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 531 534 541 532 533 341 347 337 540 340 335 351 356 348 333 336 345 526</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 333 533 337 242 341 351 534 446 345 340 540 531 526 245 244 91 237 541 356 532 347 335 535 348 336</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\stack\cfg\cfg_stack.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 365 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 340 347 337 541 532 533 540 341 335 351 361 371 356 348 333 336 521 386</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237 533 245 337 535 361 244 340 336 347 521 91 540 351 541 333 341 356 386 242 446 532 335 348 371</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\hidapp\hidapp_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 374 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 539 540 520 533 541 532 529 531 347 337 341 340 335 351 356 348 333 336 521 527 534 345 522 524 514 528 525 373 385 515 388</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 514 335 341 529 534 385 244 91 541 539 521 522 525 388 545 345 535 520 531 347 356 527 524 528 373 515 407 237 245 533 532 333 348 538 242 446 540 337 340 351 336</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\IAR\AMapollo2\port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 509 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 449 409 242 446 91 237 470 353 247 244 407 245 296 355 357 469 464 474 447 475 108 246 440 236 434 408 390 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 344 352 401 417</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 409 426 443 91 424 437 344 357 244 475 105 418 425 433 439 245 246 447 247 242 431 432 422 428 438 435 423 434 417 353 108 470 446 237 296 407 469 238 254 256 249 258 255 241 252 239 261 259 257 260 243 240 248 236 408 393 352 449 355 464 474 440 419 436 445 416 430 442 429 441 420 444 421 427 402 392 394 395 396 410 253 405 413 411 403 397 404 398 406 399 412 414 400 390 401</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\IAR\AMapollo2\portasm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 211 295</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 296</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_slave.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 342 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 348 531 339 341 347 337 540 340 335 351 356 333 336 528 534 345 376 527 246 383</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 528 532 336 541 531 383 446 351 520 341 376 242 533 337 356 345 535 348 339 534 246 340 540 333 538 244 407 545 91 237 245 347 335 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gls.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 495 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 498 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 524 242 333 532 347 529 548 446 341 541 335 356 539 498 245 244 91 237 348 336 340 533 351 535 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_terminal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 384 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 221</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 538 545 362 535 245 541 532 533 522 370 531 529 539 540 341 347 337 340 335 351</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 529 242 522 407 446 541 347 540 105 535 341 244 245 533 335 337 538 362 370 531 539 364 91 237 545 532 340 351 359</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hts.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 478 163</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 290</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 479 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 341 335 524 446 541 529 548 242 333 532 347 535 356 539 479 245 244 91 237 348 336 340 533 351 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_ipss.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 325 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 341 335 539 446 541 336 325 242 333 532 347 337 356 529 524 548 245 244 91 237 348 340 533 351 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_plxs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 485 157</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 487 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 533 91 336 340 539 487 245 244 237 348 351 337 356 529 524 548 242 446 333 341 541 532 347 335 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\ambiq_ble\apps\ancs\ancs_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 368 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 227</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 539 540 520 533 541 532 529 531 347 337 341 340 335 351 521 356 348 333 336 527 534 345 522 523 524 528 525 526 343 530 349 246 415 391 518 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 358 544 350 354 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 443 242 426 528 544 424 437 521 545 541 333 345 356 105 418 425 433 439 529 530 244 91 335 336 415 338 108 431 432 422 428 438 435 423 407 245 539 347 527 523 526 237 533 532 535 348 340 341 518 354 247 238 254 256 249 258 255 241 252 239 261 259 257 260 243 240 248 414 408 246 520 531 534 522 524 525 343 349 446 540 337 351 391 358 350 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 253 405 413 411 403 397 404 398 406 399 412 236 434 538 400 390 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 494 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 270</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 539 540 356 348 541 532 533 333 336 341 347 337 340 335 351 514 529 524 548 373</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 373 242 514 446 341 535 539 524 333 533 335 356 529 548 244 407 545 91 237 245 348 336 340 541 532 347 538 351 337</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_ui.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 346 128</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 222</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 541 532 533 529 522</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 237 529 532 541 245 244 91 535 522 446 533</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 330 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 351 529 348 531 539 540 341 347 337 340 335 534 356 333 336 345 376 527 522</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 541 341 533 340 529 446 532 337 333 520 531 376 540 351 348 535 539 534 522 244 407 545 91 237 245 347 335 356 336 345 538 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_gyro.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 310 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 548 307</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 539 336 533 340 337 356 307 446 348 351 540 535 529 548 244 407 545 91 237 245 333 341 541 532 347 335 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hrps\hrps_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 505 139</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 529 539 540 356 348 541 532 533 333 336 341 347 337 340 335 351 524 513 534 345 523 506</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 534 335 539 446 336 341 531 524 506 348 340 541 535 529 356 513 523 244 407 545 91 237 245 540 333 532 347 345 538 533 351 337</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_master_leg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 331 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 229</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 529 341 347 337 541 532 533 540 340 335 351 534 356 348 333 336 345 376 527</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 351 245 237 356 541 333 376 244 337 341 91 340 540 336 529 534 242 446 347 335 535 533 348 345 532 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 550 145</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 294</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 539 528 524 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 532 333 347 242 528 336 548 446 341 541 335 337 356 539 524 245 244 91 237 348 340 533 351 540 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_hw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 375 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 541 532 533 529 539 540 523 524</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 407 237 245 539 244 540 541 524 545 91 535 529 523 242 446 533 538 532</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\ws-core\sw\wsf\common\wsf_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 484 206</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 280</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 533 348 541 532 531 529</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 529 532 348 242 533 531 245 244 535 91 237 541</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cscs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 552 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 551 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 340 237 351 245 337 539 244 348 336 551 91 533 540 356 529 524 548 242 446 333 341 541 532 347 335 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\generic\app_db.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 328 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 225</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 108 246 247 245 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 535 531 540 534 541 532 533 341 347 337 340 335 351 356 348 333 336 345 376 527</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259 348 541 256 434 241 240 244 242 535 527 545 238 258 239 260 540 91 247 254 249 255 252 261 257 243 248 245 253 533 337 376 407 237 105 443 431 418 432 424 422 425 428 426 438 433 435 437 423 439 236 408 341 351 340 345 108 531 534 446 246 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 405 413 411 403 397 404 398 406 399 412 414 400 390 409 336 333 538 356 532 347 335</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_disc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 389 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 520 533 541 532 369 529 539 540 341 347 337 340 335 351 356 348 333 336 524 534 345 376 527</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 340 541 333 524 244 91 529 545 520 341 376 407 237 245 533 540 351 336 535 369 539 356 534 242 446 532 347 335 337 348 345 538 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\profiles\hid\hid_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 510 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 529 356 348 541 532 533 333 336 341 347 337 540 340 335 351 514 534 345 515</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 407 237 245 532 348 333 337 356 244 340 541 531 534 545 91 336 351 535 529 514 515 242 446 341 533 540 538 347 335 345</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\radio_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 503 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 245 244 242 446 91 237 246 538 407 545 359 364 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 344 352 401 417 349 415 391 518 358 544 350 354 338 353 296 355 357 469 464 449 470 474 447 475 448 476 477 450 451 535 529 369 348 541 532 533 502 507 508 511 512 361 341 347 337 540 340 335 351 371 356 333 336 521 534 345 452 453 462 383 465 501 520 530 343 522</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 413 532 442 383 359 246 393 412 252 341 511 448 436 444 396 404 108 415 355 340 540 348 521 530 353 244 446 407 364 440 416 441 427 394 253 403 406 434 245 338 449 541 535 453 529 507 361 452 501 522 344 464 451 545 242 419 445 430 429 420 421 402 392 395 410 405 411 397 398 399 236 408 544 474 356 369 502 508 512 534 462 465 520 343 538 349 447 357 477 91 237 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 401 518 354 470 351 337 333 335 334 400 390 409 352 417 391 358 350 296 469 475 476 450 533 371 347 336 345</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_server.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 381 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 520 533 541 532 341 347 337 540 340 335 351 356 348 333 336 534 345 376 527</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 533 335 336 534 242 541 535 341 446 347 333 520 356 376 245 244 91 237 532 340 351 337 540 348 345 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\rtos.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 558 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 344 352 401 417 353 296 355 357 469 464 449 470 474 447 475 476 334 538 545 359 364 349 415 391 518 358 544 350 354 338 448 477 450 451</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 407 91 422 423 244 431 438 414 108 357 432 428 435 246 538 353 105 443 418 424 425 426 433 437 439 242 253 247 350 476 237 238 254 256 249 258 255 241 252 239 261 259 257 260 243 240 248 434 449 409 349 391 344 447 464 334 446 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 405 413 411 403 397 404 398 406 399 412 236 408 401 296 469 475 477 358 450 400 390 352 417 355 474 470 359 448 451 545 364 415 518 544 354 338</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_bps.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 306 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 323 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 524 91 336 533 340 529 548 245 244 237 348 351 535 356 539 323 242 446 333 341 541 532 347 335 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_batt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 549 151</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 539 373 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 533 91 336 340 540 548 539 245 244 237 348 351 337 356 373 242 446 333 341 541 532 347 335 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_dis.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 299 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 292</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 525 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 237 340 351 525 244 348 535 529 91 336 533 356 539 548 242 446 333 341 541 532 347 335 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\ble_freertos_ancs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 466 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 228</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 245 244 242 446 91 237 246 538 407 545 359 364 108 247 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 344 352 401 417 349 415 391 518 358 544 350 354 338 353 296 355 357 469 464 449 470 474 447 475 448 476 477 450 451 472</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 430 91 247 357 405 544 538 402 399 236 408 245 349 242 419 420 395 397 244 252 108 447 477 237 445 429 421 392 410 411 398 401 415 338 449 409 472 246 359 344 353 464 448 451 446 407 545 364 440 436 416 442 441 444 427 393 394 396 253 413 403 404 406 412 434 518 354 105 296 469 475 334 238 443 254 431 256 418 249 432 258 424 255 422 241 425 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 400 390 352 417 391 358 350 355 474 470 476 450</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_master.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 377 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 520 533 541 532 348 529 531 341 347 337 540 340 335 351 356 333 336 528 534 345 376 527 246 383</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 534 336 541 531 383 351 348 356 527 245 244 237 533 532 337 345 520 529 341 528 376 246 242 446 340 540 535 333 347 335</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_cps.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321 164</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 282</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 311 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 340 237 351 245 540 539 244 348 535 336 311 91 533 356 529 524 548 242 446 333 341 541 532 347 335 337</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_hrs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 300 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 284</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 513 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 446 541 524 341 335 529 548 242 333 532 347 337 356 539 513 245 244 91 237 348 336 340 533 351 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\apps\app\app_slave_leg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 382 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 531 529 341 347 337 541 532 533 540 340 335 351 534 356 348 333 336 345 376 527</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 545 335 356 541 333 341 244 91 531 376 407 237 245 347 540 336 535 529 534 242 446 340 351 337 533 348 345 538 532 527</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_temp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 481 172</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 277</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 548 497</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 340 351 539 242 348 535 356 497 336 533 529 548 244 407 545 91 237 245 333 341 541 532 347 335 538 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_scpss.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 315 150</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 278</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 326 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 341 335 524 446 541 529 548 242 333 532 347 535 356 539 326 245 244 91 237 348 336 340 533 351 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_id.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 516 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 235</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 518 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244 444 404 436 396 91 246 442 393 413 412 242 409 440 416 441 427 394 253 403 406 518 237 245 419 445 430 429 420 421 402 392 395 410 405 411 397 398 399 407 414 390 446 108 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 236 400 434 408</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 543 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 415</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 415</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\portable\MemMang\heap_2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 366 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 353 247 245 296 355 357 469 464 449 409 470 474 447 475</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 364 242 296 353 237 449 409 475 447 244 407 446 247 357 469 359 245 355 464 474 470</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 519 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 391</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261 236 254 255 243 242 408 247 249 252 257 248 237 238 256 258 241 239 259 260 240 244 108 91 105 443 431 418 432 424 422 425 428 426 438 433 435 437 423 439 245 246 391 446 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 253 405 413 411 403 397 404 398 406 399 412 407 414 434 400 390 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\queue.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 553 122</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 538 545 353 247 245 296 355 357 469 464 449 409 470 474 447 475 476</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 355 244 447 407 242 474 470 545 245 464 538 353 476 364 91 237 247 296 357 469 449 409 359 475</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 380 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 353 247 245 296 355 357 469 464 449 409 470 474 475</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 474 244 470 475 407 446 355 353 242 364 91 237 245 464 359 247 296 357 469 449 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\event_groups.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 387 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 353 247 245 296 355 357 469 464 449 409 470 474 447 475 450 477</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 469 450 357 242 353 244 247 447 477 407 446 296 449 409 475 359 364 91 237 245 355 464 474 470</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_uricfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 316 158</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 289</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 538 244 242 446 91 237 407 545 535 245 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 548 318 308</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540 340 351 446 539 242 348 356 318 336 533 337 535 529 548 308 244 407 545 91 237 245 333 341 541 532 347 335 538</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_rscs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 496 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 283</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 557 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 340 237 351 245 540 539 244 348 535 336 557 91 533 356 529 524 548 242 446 333 341 541 532 347 335 337</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wss.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 480 166</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 483 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 341 335 524 446 541 529 548 242 333 532 347 535 356 539 483 245 244 91 237 348 336 340 533 351 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 324 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 269</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 538 545 353 247 245 296 355 357 469 464 449 409 470 474 447 475 450 309 344 246 108 440 236 434 408 390 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 352 401 417</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 397 420 246 419 395 242 244 407 430 402 405 399 434 447 296 475 417 245 445 429 421 392 410 411 398 309 446 247 357 469 409 352 440 436 416 442 441 444 427 393 394 396 253 413 403 404 406 412 236 408 538 353 450 344 364 91 237 545 355 464 474 449 470 108 401 105 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 414 400 390 359</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wdxs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 493 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 268</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 492 539 540 356 348 541 532 533 333 336 341 347 337 340 335 351 529 524 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 333 245 237 532 347 535 539 244 337 356 548 91 540 341 541 335 492 529 524 242 446 348 336 340 533 351</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_wp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 305 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 264</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 524 322 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 524 91 336 533 340 529 548 245 244 237 348 351 535 356 539 322 242 446 333 341 541 532 347 335 337 540</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\exactle\sw\services\svc_px.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 304 167</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 288</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 535 245 244 242 446 91 237 356 348 541 532 533 333 336 341 347 337 540 340 335 351 529 539 301 548</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245 237 340 351 337 301 244 348 529 91 336 533 540 356 539 548 242 446 333 341 541 532 347 335 535</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_faultisr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 536 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 234</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 108 246 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 395 419 242 420 397 430 402 405 399 236 409 237 245 445 429 421 392 410 411 398 393 91 246 440 436 416 442 441 444 427 394 396 253 413 403 404 406 412 244 390 108 446 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 407 414 400 434 408</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 537 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 544</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242 105 246 544 244 446 245 91 237</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\third_party\FreeRTOS9\Source\timers.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 486 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 286</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359 244 242 446 91 237 407 364 353 247 245 296 355 357 469 464 449 409 470 474 447 475 476 450</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 296 237 242 476 364 244 407 353 91 247 357 469 409 447 450 446 245 355 464 474 449 470 359 475</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 517 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 417</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252 247 248 242 249 257 253 254 255 261 243 236 237 238 256 258 241 239 259 260 240 244 245 246 108 91 105 443 431 418 432 424 422 425 428 426 438 433 435 437 423 439 434 417 446 440 419 436 445 416 430 442 429 441 420 444 421 427 402 393 392 394 395 396 410 405 413 411 403 397 404 398 406 399 412 407 414 408 400 390 409</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_iar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 547 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 446 244 242 245 91 237</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 542 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 233</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 245 244 242 446 91 237 246 108 247 407 440 236 434 408 390 409 400 414 238 419 443 436 254 445 431 416 256 430 418 442 249 429 432 441 258 420 424 444 255 421 422 427 241 402 425 393 252 392 428 253 394 239 395 426 396 261 410 438 259 405 433 413 257 411 435 403 260 397 437 404 243 398 423 406 240 399 439 412 248 401</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 440 394 441 403 416 427 253 406 245 244 446 246 436 442 444 393 396 413 404 412 242 108 419 445 430 429 420 421 402 392 395 410 405 411 397 398 399 407 414 400 401 91 237 105 247 238 443 254 431 256 418 249 432 258 424 255 422 241 425 252 428 239 426 261 438 259 433 257 435 260 437 243 423 240 439 248 236 390 409 434 408</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\bin\ble_freertos_ancs.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 568 570</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 263</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 564 95 107 99 106 101 96 109 90 92 93 94 103 97 98 100 102 104 124 125 128 118 136 115 132 126 111 137 141 114 113 123 117 119 135 133 138 116 110 130 120 139 131 121 211 140 122 127 134 129 112 155 152 162 143 151 153 145 164 156 149 146 171 147 148 163 144 157 167 154 150 172 158 165 161 166 142 170 159 160 168 169 224 219 230 231 206 213 232 567 566 561 565 562 571 569 563</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

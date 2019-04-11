@@ -1,0 +1,342 @@
+# ******************************************************************************
+#                                                                              *
+# Copyright (c) 2018 Ambiq Micro.                                              *
+#                                                                              *
+#*******************************************************************************
+#                                                                              *
+# File:     bsp_pins.src                                                       *
+#                                                                              *
+# Title:    Ambiq Micro BSP Pins definitions                                   *
+#                                                                              *
+# Date:     03/06/2018                                                         *
+#                                                                              *
+#*******************************************************************************
+#                                                                              *
+#   This file contains descriptors for the various BSP pin definitions.        *
+#   After completing the pin descriptors, the file is processed by a           *
+#   Python script to generate the appropriate C and header file.               *
+#                                                                              *
+#   NOTEs:                                                                     *
+#   - This file should contain NO TAB characters, only spaces.                 *
+#   - Indentation is required, but the amount of indentation is not critical,  *
+#     only the consistency of indentation.                                     *
+#   - Comment lines always begin with a '#' sign.                              *
+#   - Letter case of keywords (left side of equal) is not important.           *
+#     Letter case of the value (right side of equal) is not important when     *
+#     processing standard values (e.g. "lo2hi").  However, letter case is      *
+#     maintained when used for creating defines.                               *
+#                                                                              *
+#  Keywords:                                                                   *
+#   All of the following keywords should begin in column 4.                    *
+#   name        The name to be used for the pin.  This name will be used as a  *
+#               base for generating defines. Each pin name must be unique.     *
+#   desc        Optional: A description, if provided, will appear in the       *
+#               generated header file.                                         *
+#   funcsel     A value 0-7, or the equivalent AM_HAL_PIN_nn_xxxx macro.       *
+#               The AM_HAL_PIN_nn_xxxx nomenclature is preferred.              *
+#   pinnum      The pin number for the pin being defined (0-49).               *
+#   drvstrength One of: 2, 4, 8, or 12.  If not provided, 2 is default.        *
+#   GPOutcfg    Typically used if the pin is being defined as GPIO (funcsel=3).*
+#               One of: disable, pushpull, opendrain, tristate.                *
+#               Also acceptable is a value 0-3, or a macro.                    *
+#   GPinput     Only used if the pin is being defined as GPIO (funcsel=3).     *
+#               One of: true, false.                                           *
+#   GPRdZero    One of readpin, zero (or true or false).                       *
+#   intdir      One of: none, lo2hi, hi2lo, either.                            *
+#               Note - does not enable any interrupt. Only configures the      *
+#               direction for when it is enabled.                              *
+#   pullup      One of: none, 1_5K, 6K, 12K, 24K, weak, pulldown.              *
+#               1_5K - 24K: valid on I2C pins.                                 *
+#               weak: Valid for pullups on all other (non-I2C) pins.           *
+#               pulldown: Valid for pin 20 only.                               *
+#               Also acceptable is a macro (e.g. AM_HAL_GPIO_PIN_PULLUP_1_5K). *
+#   PowerSw     One of: VDD or VSS.                                            *
+#               Also acceptable is a macro (e.g. AM_HAL_GPIO_PIN_POWERSW_VDD). *
+#                                                                              *
+#   The following 3 parameters are used when the pin is being defined as a     *
+#   chip enable, i.e. for SPI or MSPI.                                         *
+#   IOMnum      The IOM number pertaining to the CE. 0-5 for SPI, 6 for MSPI.  *
+#               Also acceptable is a macro (e.g. one defined in am_bsp.h).     *
+#   CEnum       A value from 0-3.                                              *
+#               If a value 0-3, a macro is created of the form:                *
+#               #define AM_BSP_<name>_CHNL <CEnum>                             *
+#               Also acceptable is a macro (e.g. one defined in am_bsp.h),     *
+#               in this case no other macro is created.                        *
+#   CEpol       Chip enable polarity, active low or active high.               *
+#               One of: LOW (default) or HIGH.                                 *
+#                                                                              *
+# ******************************************************************************
+
+
+# *****************************************************************************
+#  LEDs and buttons
+# *****************************************************************************
+pin
+    name            = CLICKBEETLE_SW1
+    desc            = ClickBeetle button
+    pinnum          = 19
+    func_sel        = AM_HAL_PIN_19_GPIO
+    drvstrength     = 2
+    GPinput         = true
+
+pin
+    name            = CLICKBEETLE_D1RED
+    desc            = LED Red
+    pinnum          = 47
+    func_sel        = AM_HAL_PIN_47_GPIO
+    drvstrength     = 2
+
+pin
+    name            = CLICKBEETLE_D1GREEN
+    desc            = LED Green     
+    pinnum          = 46
+    func_sel        = AM_HAL_PIN_46_GPIO
+    drvstrength     = 2
+
+pin
+    name            = CLICKBEETLE_D1BLUE
+    desc            = LED Blue 
+    pinnum          = 48
+    func_sel        = AM_HAL_PIN_48_GPIO
+    drvstrength     = 2
+
+
+# *****************************************************************************
+#  COM UART pins (UART0).
+# *****************************************************************************
+pin
+    name            = CLICKBEETLE_TX
+    desc            = This pin is the COM_UART transmit pin.
+    pinnum          = 0
+    func_sel        = AM_HAL_PIN_0_UART0TX
+    drvstrength     = 2
+
+pin
+    name            = CLICKBEETLE_RX
+    desc            = This pin is the COM_UART receive pin.
+    pinnum          = 1
+    func_sel        = AM_HAL_PIN_1_UART0RX
+
+
+# *****************************************************************************
+#  UART pins (UART1).
+# *****************************************************************************
+pin
+    name            = CLICKBEETLE_TX1
+    desc            = This pin is the COM_UART transmit pin.
+    pinnum          = 35
+    func_sel        = AM_HAL_PIN_35_UART1TX
+    drvstrength     = 2
+
+pin
+    name            = CLICKBEETLE_RX1
+    desc            = This pin is the COM_UART receive pin.
+    pinnum          = 25
+    func_sel        = AM_HAL_PIN_25_UART1RX
+
+# *****************************************************************************
+#  IOM0 pins.
+# *****************************************************************************
+pin
+    name            = CLICKBEETLE_CS1
+    desc            = I/O Master 0 chip select.
+    pinnum          = 25
+    func_sel        = AM_HAL_PIN_25_NCE25
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 0
+    CEnum           = 2
+    CEpol           = low
+    
+pin
+    name            = CLICKBEETLE_CS2
+    desc            = I/O Master 0 chip select.
+    pinnum          = 35
+    func_sel        = AM_HAL_PIN_35_NCE35
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 0
+    CEnum           = 0
+    CEpol           = low
+    
+pin
+    name            = CLICKBEETLE_CS3
+    desc            = I/O Master 0 chip select.
+    pinnum          = 34
+    func_sel        = AM_HAL_PIN_34_NCE34
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 0
+    CEnum           = 3
+    CEpol           = low
+
+pin
+    name            = CLICKBEETLE_CS4
+    desc            = I/O Master 0 chip select.
+    pinnum          = 41
+    func_sel        = AM_HAL_PIN_41_NCE41
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 0
+    CEnum           = 1
+    CEpol           = low
+    
+pin
+    name            = CLICKBEETLE_CS5
+    desc            = I/O Master 0 chip select.
+    pinnum          = 1
+    func_sel        = AM_HAL_PIN_1_NCE1
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 0
+    CEnum           = 2
+    CEpol           = low    
+    
+
+    
+pin
+    name            = CLICKBEETLE_MISO
+    desc            = I/O Master 0 SPI MISO signal.
+    pinnum          = 6
+    func_sel        = AM_HAL_PIN_6_M0MISO
+    IOMnum          = 0
+
+pin
+    name            = CLICKBEETLE_MOSI
+    desc            = I/O Master 0 SPI MOSI signal.
+    pinnum          = 7
+    func_sel        = AM_HAL_PIN_7_M0MOSI
+    drvstrength     = 12
+    IOMnum          = 0
+
+pin
+    name            = CLICKBEETLE_SCK
+    desc            = I/O Master 0 SPI SCK signal.
+    pinnum          = 5
+    func_sel        = AM_HAL_PIN_5_M0SCK
+    drvstrength     = 12
+    IOMnum          = 0
+
+
+# *****************************************************************************
+#  IOM1 pins.
+# *****************************************************************************
+
+pin
+    name            = CLICKBEETLE_SCL
+    desc            = I/O Master 1 I2C clock signal.
+    pinnum          = 8
+    func_sel        = AM_HAL_PIN_8_M1SCL
+    GPOutcfg        = opendrain
+    drvstrength     = 12
+    pullup          = 1_5K
+    IOMnum          = 1
+
+pin
+    name            = CLICKBEETLE_SDA
+    desc            = I/O Master 1 I2C data signal.
+    pinnum          = 9
+    func_sel        = AM_HAL_PIN_9_M1SDAWIR3
+    GPOutcfg        = opendrain
+    drvstrength     = 12
+    pullup          = 1_5K
+    IOMnum          = 1
+
+
+# *****************************************************************************
+#  MSPI pins.
+# *****************************************************************************
+pin
+    name            = MSPI_CE0
+    desc            = MSPI chip select.
+    pinnum          = 28
+    func_sel        = AM_HAL_PIN_28_NCE28
+    drvstrength     = 12
+    intdir          = lo2hi
+    GPOutcfg        = pushpull
+    GPinput         = false
+    IOMnum          = 6
+    CEnum           = 0
+    CEpol           = low
+
+
+pin
+    name            = MSPI_D0
+    desc            = MSPI data 0.
+    pinnum          = 22
+    func_sel        = AM_HAL_PIN_22_MSPI0
+    drvstrength     = 8
+    intdir          = lo2hi
+    IOMnum          = 6
+
+pin
+    name            = MSPI_D1
+    desc            = MSPI data 1.
+    pinnum          = 26
+    func_sel        = AM_HAL_PIN_26_MSPI1
+    drvstrength     = 8
+    intdir          = lo2hi
+    IOMnum          = 6
+
+pin
+    name            = MSPI_D2
+    desc            = MSPI data 2.
+    pinnum          = 4
+    func_sel        = AM_HAL_PIN_4_MSPI2
+    drvstrength     = 8
+    intdir          = lo2hi
+    IOMnum          = 6
+
+pin
+    name            = MSPI_D3
+    desc            = MSPI data 3.
+    pinnum          = 23
+    func_sel        = AM_HAL_PIN_23_MSPI13
+    drvstrength     = 8
+    intdir          = lo2hi
+    IOMnum          = 6
+
+pin
+    name            = MSPI_SCK
+    desc            = MSPI clock.
+    pinnum          = 24
+    func_sel        = AM_HAL_PIN_24_MSPI8
+    drvstrength     = 12
+    intdir          = lo2hi
+    IOMnum          = 6
+
+# *****************************************************************************
+#  ITM pins.
+# *****************************************************************************
+pin
+    name            = ITM_SWO
+    desc            = ITM Serial Wire Output.
+    pinnum          = 41
+    func_sel        = AM_HAL_PIN_41_SWO
+    drvstrength     = 2
+
+# *****************************************************************************
+#  CORE pins.
+# *****************************************************************************
+pin
+    name            = CLICKBEETLE_SWDCLK
+    desc            = Cortex Serial Wire DCK.
+    pinnum          = 20
+    func_sel        = AM_HAL_PIN_20_SWDCK
+
+pin
+    name            = CLICKBEETLE_SWDIO
+    desc            = Cortex Serial Wire DIO.
+    pinnum          = 21
+    func_sel        = AM_HAL_PIN_21_SWDIO
+
