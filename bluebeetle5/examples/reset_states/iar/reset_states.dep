@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>4265112705</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.c</file>
+            <file>$PROJ_DIR$\startup_iar.c</file>
+            <file>$PROJ_DIR$\..\src\reset_states.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_faultisr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_security.h</file>
+            <file>$PROJ_DIR$\bin\reset_states.o</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_uart.h</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.o</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.pbi</file>
+            <file>$PROJ_DIR$\bin\reset_states.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.pbi</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.o</file>
+            <file>$PROJ_DIR$\bin\startup_iar.pbi</file>
+            <file>$PROJ_DIR$\bin\startup_iar.o</file>
+            <file>$PROJ_DIR$\bin\reset_states.out</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_systick.h</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.o</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pdm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\AmbiqMicro\Include\apollo3.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ble_patch.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_ctimer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_itm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ios.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\am_mcu_apollo.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_queue.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_macros.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_cachectrl.h</file>
+            <file>$PROJ_DIR$\bin\reset_states.bin</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_tpiu.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_nvic.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_stimer.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_apbdma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_status.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_uart.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_cmdq.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_global.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_rtc.h</file>
+            <file>$PROJ_DIR$\bin\reset_states.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_cachectrl.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\AmbiqMicro\Include\system_apollo3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_jedec.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_mcuctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_vcomp.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_pwrctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_sysctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_debug.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_mcuctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_base_addresses.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_bleif.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_clkgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_iom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_ioslave.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_mspi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_pdm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_rstgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_systick.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pwrctrl.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_interrupt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\mpu_armv7.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_button.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_id.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\bin\reset_states.log</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_debug.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\bin\am_util_faultisr.lst</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\am_bsp_pins.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_ble.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\am_bsp.h</file>
+            <file>$PROJ_DIR$\bin\reset_states.map</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\iar\bin\libam_hal.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_regdump.h</file>
+            <file>$PROJ_DIR$\bin\am_util_stdio.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_time.h</file>
+            <file>$PROJ_DIR$\reset_states.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\bsp\iar\bin\libam_bsp.a</file>
+            <file>$PROJ_DIR$\bin\startup_iar.lst</file>
+            <file>$PROJ_DIR$\bin\reset_states.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_wdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_reset.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_sysctrl.h</file>
+            <file>$PROJ_DIR$\bin\am_util_delay.lst</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_burst.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ble.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_iom.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_secure_ota.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_tpiu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_itm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_pwrctrl_internal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\CMSIS\ARM\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_security.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_clkgen.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_ctimer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\regs\am_reg_wdt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\mcu\apollo3\hal\am_hal_mspi.h</file>
+            <file>$PROJ_DIR$\bin\am_devices_led.lst</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 89 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_stdio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 36 29 37 65 78 40 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29 49 40 108 36 37 26 65 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_iar.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 36 29 37 65 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37 36 29 26 65 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\reset_states.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30 40 51 36 29 37 65 78 71 26 23 107 115 120 104 122 77 50 60 32 52 41 61 33 62 25 67 63 64 27 53 54 66 38 68 56 69 46 6 57 19 35 9 55 125 42 105 73 110 45 24 109 48 123 44 124 58 126 111 74 112 28 116 59 127 22 118 72 119 31 103 76 113 39 121 70 114 43 102 88 86 75 79 91 83 117 80 94 108 98 96 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 41 46 31 107 40 27 42 28 43 122 23 25 38 35 24 45 22 39 36 29 94 91 26 32 33 63 54 56 57 55 73 48 58 74 59 72 76 70 37 71 104 79 30 88 49 51 60 52 61 62 67 64 53 66 68 69 6 19 9 125 105 110 109 123 124 126 111 112 116 127 118 119 103 113 121 114 102 65 78 50 77 86 117 98 115 120 75 83 80 108 96 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 36 29 37 65 78 40 30 51 71 23 107 115 120 104 122 77 50 60 32 52 41 61 33 62 25 67 63 64 27 53 54 66 38 68 56 69 46 6 57 19 35 9 55 125 42 105 73 110 45 24 109 48 123 44 124 58 126 111 74 112 28 116 59 127 22 118 72 119 31 103 76 113 39 121 70 114 43 102 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124 107 61 6 103 29 120 51 53 105 116 102 78 60 67 68 9 109 111 118 121 36 30 65 49 52 62 64 66 69 19 125 110 123 126 112 127 119 113 114 26 40 117 37 23 32 41 33 25 63 27 54 38 56 46 57 35 55 42 73 24 48 44 58 45 74 28 59 22 72 31 76 39 70 43 71 50 115 77 104 122</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\devices\am_devices_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 128 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 36 29 37 65 78 40 30 51 71 23 107 115 120 104 122 77 50 60 32 52 41 61 33 62 25 67 63 64 27 53 54 66 38 68 56 69 46 6 57 19 35 9 55 125 42 105 73 110 45 24 109 48 123 44 124 58 126 111 74 112 28 116 59 127 22 118 72 119 31 103 76 113 39 121 70 114 43 102 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 23 24 38 22 25 35 45 39 26 36 37 40 41 27 46 42 44 28 31 43 29 30 32 33 63 54 56 57 55 73 48 58 74 59 72 76 70 71 50 77 75 65 78 49 51 60 52 61 62 67 64 53 66 68 69 6 19 9 125 105 110 109 123 124 126 111 112 116 127 118 119 103 113 121 114 102 107 104 122 115 120</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\utils\am_util_faultisr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 36 29 37 65 78 30 40 51 71 23 107 115 120 104 122 77 50 60 32 52 41 61 33 62 25 67 63 64 27 53 54 66 38 68 56 69 46 6 57 19 35 9 55 125 42 105 73 110 45 24 109 48 123 44 124 58 126 111 74 112 28 116 59 127 22 118 72 119 31 103 76 113 39 121 70 114 43 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48 32 29 56 72 63 55 74 70 107 122 78 26 33 54 57 73 58 59 76 42 65 40 23 41 25 27 38 46 35 24 44 45 28 22 31 39 43 36 104 30 37 49 51 60 52 61 62 67 64 53 66 68 69 6 19 9 125 105 110 109 123 124 126 111 112 116 127 118 119 103 113 121 114 102 71 50 77 115 120</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\bin\reset_states.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 89 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 97 20 21 10 15 7 17 99 90 92 84 93 81</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

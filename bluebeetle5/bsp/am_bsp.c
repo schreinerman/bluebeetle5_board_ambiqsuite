@@ -224,7 +224,7 @@ am_bsp_low_power_init(void)
         // Turn off the LED.
         //
         am_hal_gpio_state_write(ui32GPIONumber, AM_HAL_GPIO_OUTPUT_TRISTATE_DISABLE);
-        am_hal_gpio_state_write(ui32GPIONumber, AM_HAL_GPIO_OUTPUT_CLEAR);
+        am_hal_gpio_state_write(ui32GPIONumber, AM_HAL_GPIO_OUTPUT_SET);
     }
 #endif // AM_BSP_NUM_LEDS
 

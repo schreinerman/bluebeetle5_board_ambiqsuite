@@ -315,7 +315,7 @@ pcm_fft_print(void)
     // Find the frequency bin with the largest magnitude.
     //
     arm_max_f32(g_fPDMMagnitudes, PDM_FFT_SIZE / 2, &fMaxValue, &ui32MaxIndex);
-
+  
     ui32LoudestFrequency = (g_ui32SampleFreq * ui32MaxIndex) / PDM_FFT_SIZE;
 
     if (PRINT_FFT_DATA)

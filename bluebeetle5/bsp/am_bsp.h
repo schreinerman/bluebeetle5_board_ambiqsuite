@@ -80,6 +80,31 @@ extern "C"
 #define AM_BSP_PRINT_INFC_UART0             2
 #define AM_BSP_PRINT_INFC_BUFFERED_UART0    3
 
+    
+//*****************************************************************************
+//
+// PWM_LED peripheral assignments.
+//
+//*****************************************************************************
+//
+
+#define AM_BSP_PIN_PWM_CLICKBEETLE_D1RED                  AM_BSP_GPIO_CLICKBEETLE_D1RED
+#define AM_BSP_PWM_CLICKBEETLE_D1RED_TIMER                6
+#define AM_BSP_PWM_CLICKBEETLE_D1RED_TIMER_SEG            AM_HAL_CTIMER_TIMERB
+#define AM_BSP_PWM_CLICKBEETLE_D1RED_TIMER_INT            AM_HAL_CTIMER_INT_TIMERB6C0
+    
+#define AM_BSP_PIN_PWM_CLICKBEETLE_D1GREEN                  AM_BSP_GPIO_CLICKBEETLE_D1GREEN
+#define AM_BSP_PWM_CLICKBEETLE_D1GREEN_TIMER                6
+#define AM_BSP_PWM_CLICKBEETLE_D1GREEN_TIMER_SEG            AM_HAL_CTIMER_TIMERA
+#define AM_BSP_PWM_CLICKBEETLE_D1GREEN_TIMER_INT            AM_HAL_CTIMER_INT_TIMERA6C0
+    
+#define AM_BSP_PIN_PWM_CLICKBEETLE_D1BLUE                  AM_BSP_GPIO_CLICKBEETLE_D1BLUE
+#define AM_BSP_PWM_CLICKBEETLE_D1BLUE_TIMER                7
+#define AM_BSP_PWM_CLICKBEETLE_D1BLUE_TIMER_SEG            AM_HAL_CTIMER_TIMERB
+#define AM_BSP_PWM_CLICKBEETLE_D1BLUE_TIMER_INT            AM_HAL_CTIMER_INT_TIMERB7C0
+
+//*****************************************************************************
+    
 //*****************************************************************************
 //
 // Button definitions.
